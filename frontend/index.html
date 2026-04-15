@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fila de Espera de Filhotes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/images/css/style.css">
+</head>
+<body class="home-page">
+  <header class="hero-banner">
+    <div class="hero-inner">
+      <h1>Fila de espera para filhotes</h1>
+      <div class="hero-actions">
+        <a href="/cadastroCliente.html" class="btn-primary">Cadastrar interessado</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="app-shell">
+    <section class="stats-grid" aria-label="Resumo rápido">
+      <article class="stat-card">
+        <span>Filhotes anunciados</span>
+        <strong id="totalFilhotes">0</strong>
+      </article>
+      <article class="stat-card">
+        <span>Interessados na fila</span>
+        <strong id="totalInteressados">0</strong>
+      </article>
+    </section>
+
+    <section class="home-layout">
+      <div>
+        <h2 class="section-title">Filhotes disponíveiS</h2>
+    
+        <div class="puppy-grid">
+          <article class="puppy-card">
+            <div class="puppy-visual">
+              <span>Disponível</span>
+              <h3>Luna</h3>
+              <p>Fêmea caramelo, tranquila e muito sociável.</p>
+            </div>
+            <div class="puppy-meta">
+              <div><strong>Idade:</strong> 8 semanas</div>
+              <div><strong>Porte:</strong> Pequeno</div>
+              <div><strong>Temperamento:</strong> Doce e curiosa</div>
+            </div>
+            <div class="card-actions">
+              <a href="/detalhes.html?filhote=1" class="btn-soft">Ver detalhes</a>
+              <a href="/cadastroCliente.html?filhote=1" class="btn-primary">Entrar na fila</a>
+            </div>
+          </article>
+
+          <article class="puppy-card">
+            <div class="puppy-visual">
+              <span>Reservado</span>
+              <h3>Thor</h3>
+              <p>Machinho preto e branco com energia moderada.</p>
+            </div>
+            <div class="puppy-meta">
+              <div><strong>Idade:</strong> 9 semanas</div>
+              <div><strong>Porte:</strong> Médio</div>
+              <div><strong>Temperamento:</strong> Brincalhão e atento</div>
+            </div>
+            <div class="card-actions">
+              <a href="/detalhes.html?filhote=2" class="btn-soft">Ver detalhes</a>
+              <a href="/cadastroCliente.html?filhote=2" class="btn-primary">Entrar na fila</a>
+            </div>
+          </article>
+
+          <article class="puppy-card">
+            <div class="puppy-visual">
+              <span>Disponível</span>
+              <h3>Mel</h3>
+              <p>Filhote pequena e observadora, ideal para família.</p>
+            </div>
+            <div class="puppy-meta">
+              <div><strong>Idade:</strong> 7 semanas</div>
+              <div><strong>Porte:</strong> Pequeno</div>
+              <div><strong>Temperamento:</strong> Calma e carinhosa</div>
+            </div>
+            <div class="card-actions">
+              <a href="/detalhes.html?filhote=3" class="btn-soft">Ver detalhes</a>
+              <a href="/cadastroCliente.html?filhote=3" class="btn-primary">Entrar na fila</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <p>&copy; 2026 Gerenciamento de pet shop para filhotes todos os direitos reservados.</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <script src="/assets/js/homeStats.js"></script>
+</body>
+</html>
